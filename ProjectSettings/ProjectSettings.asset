@@ -668,11 +668,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 8b6f14ee-ece7-41a1-b359-3e466b1a6c18
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: 02-prefabs-triggers
+  organizationId: alinush0zahozi
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   playerDataPath: 
