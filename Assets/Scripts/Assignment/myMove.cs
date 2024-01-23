@@ -1,47 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class myMove : MonoBehaviour
 {
-    public float speed = 20f;
-    public Text youWin;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    [Tooltip("Speed at which the object moves.")]
+    [SerializeField] float speed = 20f; // The speed at which the GameObject moves
 
     // Update is called once per frame
     void Update()
     {
+        // Check for left arrow key input
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            // Move the GameObject to the left
             transform.Translate(-speed * Time.deltaTime, 0, 0);
         }
+
+        // Check for right arrow key input
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            // Move the GameObject to the right
             transform.Translate(speed * Time.deltaTime, 0, 0);
         }
+
+        // Check for up arrow key input
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            // Move the GameObject upwards
             transform.Translate(0, speed * Time.deltaTime, 0);
         }
+
+        // Check for down arrow key input
         if (Input.GetKey(KeyCode.DownArrow))
         {
+            // Move the GameObject downwards
             transform.Translate(0, -speed * Time.deltaTime, 0);
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Igloo")
-        {
-            youWin.text = "YOU WInN!!!";
-        }
-
     }
 }

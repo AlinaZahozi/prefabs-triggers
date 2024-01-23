@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Laser
   - Wall
+  - extraLaser
+  - sheild
   layers:
   - Default
   - TransparentFX
