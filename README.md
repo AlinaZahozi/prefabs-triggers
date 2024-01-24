@@ -44,7 +44,7 @@ Once clicked the button will shrink and grow accordingly to simulate a physical 
   
 **Finding the files on GitHub -**
 
-I gathered all the scenes I built in the "Assignment" folder, you can find it according to the path:
+I gathered all the scenes I added in the "Assignment" folder, you can find it according to the path:
 "Alina_Prefabs_And_Triggers/Assets/Scenes/Assignment"
 
 I gathered all the scripts I added in the "Assignment" folder, you can find it according to the path:
